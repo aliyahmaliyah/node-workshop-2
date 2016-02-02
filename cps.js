@@ -1,3 +1,5 @@
+var fortune = require('./library/fortune.js')
+
 function firstLetter(string, fn) {
     return fn(string.charAt(0));
 }
@@ -17,3 +19,6 @@ function getFirstandLast(string, fn){
     };
     
 getFirstandLast("hello", function(newStr) { console.log(newStr); }); // should output "ho"
+
+
+
