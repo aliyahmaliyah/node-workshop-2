@@ -1,5 +1,3 @@
-var fortune = require('./library/fortune.js')
-
 function firstLetter(string, fn) {
     return fn(string.charAt(0));
 }
